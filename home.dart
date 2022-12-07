@@ -51,3 +51,13 @@ class HomePage extends StatelessWidget {
           ])
         ],
       ),
+
+       floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          debugPrint("Name");
+        },
+        child: const Icon(Icons.person),
+      ),
+    );
+  }
+}
