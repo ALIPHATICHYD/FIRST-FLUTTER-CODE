@@ -9,32 +9,48 @@ class about extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Welcome"),
         ),
-        body: Column(children: [
-          Container(
-            height: 100,
-            width: 100,
-            color: Colors.red,
-          ),
-          Container(
-            height: 100,
-            width: MediaQuery.of(context).size.width,
-            color: Colors.blue,
-          ),
-          Row(
-            children: [
-              Container(
-                height: 100,
-                width: MediaQuery.of(context).size.width / 2,
-                color: Colors.orange,
-              ),
-              Container(
-                height: 100,
-                width: MediaQuery.of(context).size.width / 2,
-                color: Colors.purple,
-              ),
-            ],
-          )
-        ]),
+        body: Column(
+          children: [
+            const Center(
+                child: Text("Welcome to About Page",
+                    style: TextStyle(
+                      color: Colors.red,
+                      fontSize: 30,
+                      fontWeight: FontWeight.w100,
+                      wordSpacing: 30,
+                      letterSpacing: 12,
+                    ))),
+            Container(
+              height: 200,
+              decoration: BoxDecoration(
+                  color: Colors.red,
+                  border: Border.all(
+                    color: Colors.black,
+                    width: 3,
+                  ),
+                  borderRadius: BorderRadius.circular(20)),
+            ),
+            Container(
+              height: 100,
+              width: MediaQuery.of(context).size.width,
+              color: Colors.blue,
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: MediaQuery.of(context).size.width / 2,
+                  color: Colors.orange,
+                ),
+                Container(
+                  height: 100,
+                  width: MediaQuery.of(context).size.width / 2,
+                  color: Colors.purple,
+                ),
+              ],
+            )
+          ],
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             debugPrint("ALIPHATIC");
