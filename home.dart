@@ -9,3 +9,20 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("HomePage"),
       ),
+
+       body: Column(
+        children: [
+          Row(
+            children: [
+              Container(
+                height: 100,
+                width: MediaQuery.of(context).size.width / 2,
+                color: Colors.red,
+              ),
+              Container(
+                height: 100,
+                width: MediaQuery.of(context).size.width / 2,
+                color: Colors.blue,
+              ),
+            ],
+          ),
