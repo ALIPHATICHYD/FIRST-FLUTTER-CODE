@@ -26,3 +26,28 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
+
+           Container(
+            height: 100,
+            width: MediaQuery.of(context).size.width,
+            color: Colors.yellow,
+          ),
+          Container(
+            height: 100,
+            width: MediaQuery.of(context).size.width,
+            color: Colors.green,
+          ),
+          Row(children: [
+            Container(
+              height: 100,
+              width: MediaQuery.of(context).size.width * 0.3,
+              color: Colors.orange,
+            ),
+            Container(
+              height: 100,
+              width: MediaQuery.of(context).size.width * 0.7,
+              color: Colors.purple,
+            ),
+          ])
+        ],
+      ),
