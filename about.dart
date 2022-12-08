@@ -11,6 +11,9 @@ class about extends StatelessWidget {
         ),
         body: Column(
           children: [
+            Container(
+              height: 50,
+            ),
             const Center(
                 child: Text("Welcome to About Page",
                     style: TextStyle(
@@ -22,7 +25,7 @@ class about extends StatelessWidget {
                     ))),
             Container(
               child: Icon(
-                Icons.contacts_rounded,
+                Icons.person,
                 size: 100,
               ),
               // child: Text("Header",
@@ -33,8 +36,8 @@ class about extends StatelessWidget {
               //       wordSpacing: 30,
               //       letterSpacing: 12,
               //     )),
-              height: 200,
-              width: 300,
+              height: 100,
+              width: 100,
               decoration: BoxDecoration(
                   color: Colors.red,
                   border: Border.all(
@@ -42,6 +45,9 @@ class about extends StatelessWidget {
                     width: 3,
                   ),
                   borderRadius: BorderRadius.circular(0)),
+            ),
+            Container(
+              height: 50,
             ),
             Container(
               child: Text("Name",
