@@ -155,18 +155,6 @@ class about extends StatelessWidget {
             Container(
               height: 50,
             ),
-            Container(
-              child: Text("Name",
-                  style: TextStyle(
-                    color: Colors.red,
-                    fontSize: 30,
-                    fontWeight: FontWeight.w200,
-                    wordSpacing: 30,
-                    letterSpacing: 12,
-                  )),
-              height: 100,
-              width: MediaQuery.of(context).size.width,
-              color: Colors.blue,
-            ),
+
 
     
