@@ -191,20 +191,4 @@ class about extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         wordSpacing: 30,
                         letterSpacing: 12,
-                      )),
-                  height: 100,
-                  width: MediaQuery.of(context).size.width / 2,
-                  color: Colors.purple,
-                ),
-              ],
-            )
-          ],
-        ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            debugPrint("ALIPHATIC");
-          },
-          child: const Icon(Icons.check),
-        ));
-  }
-}
+    
