@@ -102,4 +102,3 @@ class about extends StatelessWidget {
         ));
   }
 }
-
