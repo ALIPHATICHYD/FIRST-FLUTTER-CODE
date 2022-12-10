@@ -120,13 +120,3 @@ class about extends StatelessWidget {
             Container(
               height: 50,
             ),
-            const Center(
-                child: Text("Welcome to About Page",
-                    style: TextStyle(
-                      color: Colors.red,
-                      fontSize: 30,
-                      fontWeight: FontWeight.w100,
-                      wordSpacing: 30,
-                      letterSpacing: 12,
-                    ))),
-     
