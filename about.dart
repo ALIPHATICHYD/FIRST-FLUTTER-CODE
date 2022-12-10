@@ -183,12 +183,5 @@ class about extends StatelessWidget {
                   width: MediaQuery.of(context).size.width / 2,
                   color: Colors.orange,
                 ),
-                Container(
-                  child: Text("Occupation",
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontSize: 30,
-                        fontWeight: FontWeight.w400,
-                        wordSpacing: 30,
-                        letterSpacing: 12,
+
     
