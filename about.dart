@@ -106,6 +106,5 @@ class about extends StatelessWidget {
 
 import 'package:flutter/material.dart';
 
-class about extends StatelessWidget {
-  const about({super.key});
+
 
