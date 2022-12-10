@@ -142,19 +142,5 @@ class about extends StatelessWidget {
               //       wordSpacing: 30,
               //       letterSpacing: 12,
               //     )),
-              height: 100,
-              width: 100,
-              decoration: BoxDecoration(
-                  color: Colors.red,
-                  border: Border.all(
-                    color: Colors.black,
-                    width: 3,
-                  ),
-                  borderRadius: BorderRadius.circular(0)),
-            ),
-            Container(
-              height: 50,
-            ),
-
 
     
