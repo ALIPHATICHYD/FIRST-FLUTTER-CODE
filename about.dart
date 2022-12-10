@@ -129,18 +129,4 @@ class about extends StatelessWidget {
                       wordSpacing: 30,
                       letterSpacing: 12,
                     ))),
-            Container(
-              child: Icon(
-                Icons.person,
-                size: 100,
-              ),
-              // child: Text("Header",
-              //     style: TextStyle(
-              //       color: Colors.green,
-              //       fontSize: 30,
-              //       fontWeight: FontWeight.w100,
-              //       wordSpacing: 30,
-              //       letterSpacing: 12,
-              //     )),
-
-    
+     
